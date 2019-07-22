@@ -1,0 +1,40 @@
+.loading + #app {
+  display: none;
+}
+
+.loading{
+  position: relative;
+  height: 100%;
+  background: #fff none no-repeat center 240px;
+  background-size: 120px auto;
+  animation: loading .6s infinite;
+  opacity: 1;
+  transition: opacity .4s;
+
+  &-text{
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: #B5B5B5;
+  }
+}
+
+@keyframes loading {
+  0%, 100% {
+    background-image: url('../../images/loading/apk_loading_1fps.png');
+  }
+  20% {
+    background-image: url('../../images/loading/apk_loading_2fps.png');
+  }
+  40% {
+    background-image: url('../../images/loading/apk_loading_3fps.png');
+  }
+  60% {
+    background-image: url('../../images/loading/apk_loading_4fps.png');
+  }
+  80% {
+    background-image: url('../../images/loading/apk_loading_5fps.png');
+  }
+}

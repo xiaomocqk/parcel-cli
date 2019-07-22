@@ -1,0 +1,12 @@
+{
+  "modules": false,
+  "plugins": {
+    "autoprefixer": {
+      "grid": false,
+      "overrideBrowserslist": [
+        "Android >= 4.4",
+        "iOS >= 8"
+      ]
+    }
+  }
+}

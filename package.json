@@ -1,0 +1,32 @@
+{
+  "name": "ued-xiaoyouzi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./dev.js",
+    "build": "npm run clean && npm run pack",
+    "pack": "parcel build src/views/*.html --no-source-maps --experimental-scope-hoisting --public-url ./",
+    "clean": "rm -rf ./dist"
+  },
+  "keywords": [],
+  "author": "chenqiankun <chenqiankun@xiaoyouzi.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.4.5",
+    "autoprefixer": "^9.6.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.19.1",
+    "less": "^3.9.0",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "preact": "^8.4.2"
+  },
+  "repository": "https://github.com/xiaomocqk/xiaoyouzi.git"
+}
