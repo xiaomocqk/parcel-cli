@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "setup": "npm install -g parcel & npm install",
     "dev": "node ./dev.js",
     "build": "npm run clean && npm run pack",
     "pack": "parcel build src/views/*.html --no-source-maps --experimental-scope-hoisting --public-url ./",
