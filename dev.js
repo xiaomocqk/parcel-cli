@@ -4,6 +4,8 @@ const Bundler = require('parcel-bundler');
 const app = require('express')();
 const PORT = 1234;
 
+process.env.NODE_ENV = 'development';
+
 app.set('trust proxy', true);
 app.set('x-powered-by', false);
 app.use(
