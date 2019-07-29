@@ -9,7 +9,7 @@ npm run setup
 npm run dev
 ```
 
-### 三、编译打包+上传资源
+### 三、编译打包
 
 
 ```
