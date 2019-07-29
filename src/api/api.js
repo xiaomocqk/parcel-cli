@@ -1,4 +1,4 @@
-import axios from 'axios';
+// import axios from 'axios';
 import loading from '../common/loading/loading';
 import requestError from '../common/error/error';
 

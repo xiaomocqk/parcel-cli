@@ -22,7 +22,7 @@ class Page extends Component {
       isEnd: false,
     },
   }
-  
+
   async componentDidMount(){
     let data = await requestEmojiAll();
     this.setState({
